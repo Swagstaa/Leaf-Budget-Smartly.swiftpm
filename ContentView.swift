@@ -19,9 +19,7 @@ struct ContentView: View {
             TextField("enter budget here", text: $gotonext.Budget)
             
             
-            Button("Begin"){
-                    
-                }
+
                 Image(systemName: "rectangle.fill")
                 .scaleEffect(CGSize(width: 40.0, height: 6.0))
                 .offset(x: 0, y: 370)
